@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,16 +13,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0 20px;
 }
 
 header .logo {
-    flex: 1;
+    flex: 1; /* Faz o logo ocupar o espaço à esquerda */
 }
 
 header nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end; /* Alinha o menu à direita */
 }
 
 header nav ul {
